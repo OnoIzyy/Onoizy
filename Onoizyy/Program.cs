@@ -9,6 +9,10 @@ class Programa
         double num2 = Convert.ToDouble(Console.ReadLine());
         double resultad = num + num2;
         Console.WriteLine($"A soma dos numeros é {resultad}");
+        if(num > num2)
+        {
+            Console.WriteLine($"O {num}´é maior que {num2} ");
+        }
         Console.ReadKey();
 
     }
